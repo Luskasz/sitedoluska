@@ -1,0 +1,54 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HX BANK</title>
+        <style>
+            body{
+    background-color: rgba(42, 43, 43, 1);
+}
+.conteudo{
+    display: flex;
+}
+
+.barra{
+    flex-direction: column;
+    display: flex;
+    align-self:flex-start;
+    margin-top:330px;
+    margin-left: 250px;
+    width: 350px;
+    height: 32px;
+    border-radius: 12px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+.barra2{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 60px;
+    width: 350px;
+    height: 32px;
+    border-radius: 12px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+.barras{
+    display: flex;
+    flex-direction: column;
+}
+        </style>
+    </head>
+    <body>
+        <div class="conteudo"> <!-- bloco para guardar todos os conteúdos da página-->
+            <img src="FOTO2.jpg" width="1050px" height="1000px"> <!--foto do cartão hx-->
+            <div class="barras">
+            <!-- bloco para guardar as barras de login -->
+                <div class="barra"></div>
+                    <div class="barra2"></div>  
+            </div>
+        </div>            
+    </body>
+    </html>
