@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HX BANK</title>
+    <link rel="stylesheet" href="css/pag2.css">
+
+</head>
+
+<body>
+
+    <main>
+        <div class="conteudo">
+            <aside class="esq">
+                <img src="img/foto2.jpg" alt="Imagem HX Bank">
+            </aside>
+
+            <div class="conteudos_direito">
+                <div class="login">
+                    <h1>Login</h1>
+                </div>
+
+
+                <form method="post" action="login.php">
+
+
+
+                    <div class="barra1_0">
+                        <input type="text" maxlength="11" name="cpf" id="cpf" class="barra" placeholder="Digite seu CPF"
+                            required>
+                    </div>
+                    <input type="password" class="barra2" id="senha" name="senha" placeholder="Digite sua senha"
+                        required>
+
+                    <div class="botao_login">
+                        <button type="submit" id="ent" class="botao">Entrar</button>
+                    </div>
+
+                    <div class="botao_cadastro">
+                        <button type="button" class="botao-cadastrar" id="botao_cad">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <section>
+            <div class="overlay" id="popup_overlay">
+
+                <div class="inside_popup">
+
+                    <div class="popup">
+                        <span class="close-btn" id="fechar_popup">&times;</span>
+                        <h2>Cadastro</h2>
+                        <div class="forms">
+
+                            <form method="post" class="forms_pop" action="cadastro.php">
+
+                                <input type="text" id="nome_popup" name="nome" placeholder="Nome" required
+                                    class="botoes_form" />
+
+                                <input type="date" id="nascimento" name="dt_nasc" placeholder="Data de Nascimento"
+                                    required class="border_data" />
+
+                                <input type="text" id="cpf_popup" name="cpf" placeholder="CPF" maxlength="11" required
+                                    class="botoes_form" />
+
+                                <input type="tel" id="telefone" name="telefone" placeholder="Telefone" required
+                                    class="botoes_form" />
+
+                                <input type="email" id="email" name="email" placeholder="E-mail" required
+                                    class="botoes_form" />
+
+                                <input type="password" id="senha_cadastro" name="senha" placeholder="Senha" required
+                                    class="botoes_form" />
+
+                                <div class="botao_cadastro_form">
+                                    <button type="submit" id="popup_cadastrar_btn"
+                                        class="botao_submit_form">Cadastre-se</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="js/pag2.js"></script>
+</body>
+
+</html>
